@@ -25,39 +25,39 @@
         android:id="@+id/edt_contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contact"/>
+        android:hint="Nomor HP"/>
     <EditText
         android:id="@+id/edt_dob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Date of Birth"
+        android:hint="Tanggal Lahir"
         android:layout_marginBottom="24dp"/>
     <Button
         android:id="@+id/btn_insert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Insert New Data"
+        android:text="Tambahkan Data"
         android:layout_marginBottom="8dp"
         android:onClick="insert"/>
     <Button
         android:id="@+id/btn_delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Delete data"
+        android:text="Hapus Data"
         android:layout_marginBottom="8dp"
         android:onClick="delete"/>
     <Button
         android:id="@+id/btn_update_exist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="update existing data"
+        android:text="Ubah Data"
         android:layout_marginBottom="8dp"
         android:onClick="update"/>
     <Button
         android:id="@+id/btn_view_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="view data"
+        android:text="Tampilkan Data"
         android:onClick="view"/>
 
 
